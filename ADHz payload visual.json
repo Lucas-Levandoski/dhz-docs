@@ -20,6 +20,7 @@
           ...
         },
         {
+          "APPL_CONN_NAME": "SD3",
           "DATA_NODE_CD": "DP&BS",
           "SOR_NAME": null,
           "DATA_LAYER_CD": "CURATED",
@@ -50,7 +51,8 @@
           "TARGET_DATA_OBJECTS": [
             {
               "APPL_CONN_NAME": "SD3",
-              "DATA_OBJECT_NAME": "123"
+              "DATA_OBJECT_NAME": "123",
+              "SOURCE_DATA_OBJECT_NAME": "kn1",
               ...
             }
           ],

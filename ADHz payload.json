@@ -211,7 +211,8 @@
           "DATA_OBJECT_PURPOSE": null,
           "DATA_OBJECT_STATUS": "Y",
           "SOURCE_DATA_OWNER": null,
-          "DATA_DOMAIN_NAME": null, //We will provide values here, see APPL_CONN                    "COST_OWNER": "Samuel.John_Donoghue@bp.com",
+          "DATA_DOMAIN_NAME": null, //We will provide values here, see APPL_CONN                    
+          "COST_OWNER": "Samuel.John_Donoghue@bp.com",
           "ORIGINATING_SOURCE_SYSTEM": "kn1",
           "INGESTION_TEAM_EMAIL_ID": null,
           "DATA_CLASSIFICATION_CD": "G",
@@ -219,7 +220,9 @@
           "PII_REDACTED_AT_SOURCE": "0",
           "PII_POLICY_ID": null,
           "PII_POLICY_NAME": null,
-          "RETENTION_RECORD_TYPE_NAME": null, //We will provide values here, see APPL_CONN_NAME                    "CONSENT_NAME": null, //We will provide values here, see APPL_CONN_NAME                    "DATA_FORMAT_CD": " Not Defined",
+          "RETENTION_RECORD_TYPE_NAME": null, //We will provide values here, see APPL_CONN_NAME                    
+          "CONSENT_NAME": null, //We will provide values here, see APPL_CONN_NAME                    
+          "DATA_FORMAT_CD": " Not Defined",
           "DETAILED_DATA_FORMAT_ID": null,
           "DETAILED_DATA_FORMAT_NAME": null,
           "DATA_DELIMITER": null,
