@@ -1,0 +1,76 @@
+{
+  "message_id": "915869f17c0046d498ea083a1991d50f",
+  "body": {
+    "technicalMetadata": {
+      "SOR": [
+        {
+          "SOR_NAME": "ALIM",
+          "SDK_NUMBER": null,
+          "SOR_DESCRIPTION": "Bentley - Engineering Equipment Metadata"
+          ...
+        }
+      ],
+      "APPL_CONN": [
+        {
+          "APPL_CONN_NAME": "SD1",
+          "DATA_NODE_CD": "DP&BS",
+          "SOR_NAME": "ALIM",
+          "DATA_LAYER_CD": "SOURCE",
+          "DATA_TYPE_CD": "METADATA",
+          ...
+        },
+        {
+          "DATA_NODE_CD": "DP&BS",
+          "SOR_NAME": null,
+          "DATA_LAYER_CD": "CURATED",
+          "DATA_TYPE_CD": "METADATA",
+          ...
+        }
+      ],
+      "DATA_OBJECT": [
+        {
+          "DATA_OBJECT_NAME": "kn1",
+          "APPL_CONN_NAME": "SD1",
+          "JOB_SOURCE_DATA_OBJECT": [
+            {
+              "JOB_GROUP_NAME": "SD",
+              "JOB_SUBGROUP_ID": 123,
+              "TRANSACTION_TYPE_CD": "APP"
+              ...
+            }
+          ],
+          "DATA_OBJECT_TRANSACTIONS": [
+            {
+              "CDC_CHG_VER": null,
+              "CHG_KEY_LATEST_VAL": "123",
+              "RECREATE_TABLE_FLAG": "Y"
+              ...
+            }
+          ],
+          "TARGET_DATA_OBJECTS": [
+            {
+              "APPL_CONN_NAME": "SD3",
+              "DATA_OBJECT_NAME": "123"
+              ...
+            }
+          ],
+          ...
+        }
+      ]
+    },
+    "requestModel": {
+      "dataNodeCode": "DP&BS",
+      "requestTypeCode": "INGZ",
+      "requestorEmailId": "Samuel.John_Donoghue@bp.com",
+      ...
+    },
+    "businessDataSets": [
+      {
+        "requestDataObjectName": "kn1",
+        "originatingSourceSystem": "kn1",
+        "dataDomainName": "Treasury",
+        ...
+      }
+    ],
+  }
+}
