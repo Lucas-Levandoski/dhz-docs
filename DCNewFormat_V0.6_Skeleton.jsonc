@@ -1,0 +1,120 @@
+{
+    "message_id": "915869f17c0046d498ea083a1991d50f",
+    "body": {
+        "technicalMetadata": {
+            "SOR": [
+                {
+                    //details
+                }
+            ],
+            "APPL_CONN": [
+                {
+                    //details
+                },
+                {
+                    //details
+                }
+            ],
+            "JOB_GROUP": [
+                {
+                    //details
+                }
+            ],
+            "PIPELINE": [
+                {
+                    //details
+                }
+            ],
+            "DATA_OBJECT": [ //source data objects
+                {
+                    //details
+                    "JOB":
+                    {
+                        //details
+                    },
+                    "JOB_SOURCE_DATA_OBJECT": 
+                    {
+                        //details
+                    }
+                    ,
+                    "DATA_OBJECT_TRANSACTIONS":[
+                        {
+                             //details
+                        }
+                    ],
+                    "LEGAL_ENTITIES": [
+                        {
+                            //details
+                        }
+                    ],
+                    "OPERATING_AREAS": [
+                        {
+                            //details
+                        }
+                    ],
+                    "COUNTRIES": [
+                        {
+                            //details
+                        }
+                    ],
+                    "GEOGRAPHICAL_SCOPES": [
+                        {
+                            //details
+                        }
+                    ],
+                    "TARGET_DATA_OBJECTS":[
+                        {
+                            //details
+                            "DATA_OBJECT_TRANSACTIONS":[
+                                {
+                                    //details
+                                }
+                            ],
+                            "JOB_TARGET_DATA_OBJECT": 
+                            {
+                                //details
+                            }
+                        },
+                        {
+                            //details
+                            "DATA_OBJECT_TRANSACTIONS":[
+                                {
+                                    //details
+                                }
+                            ],
+                            "JOB_TARGET_DATA_OBJECT": 
+                            {
+                                //details
+                            }
+                        } 
+                    ]
+                }
+            ]
+        },
+        "publisherJobId": null,
+        "targetEnvironment": "Non-Prod",
+        "versionNumber": 20221122140009,
+        "requestModel": {
+            //details
+        },
+        "businessDataSets": [
+            {
+                //details
+            }
+        ]
+    },
+    "content_type": null,
+    "delivery_count": 1,
+    "expiration_time": "9999-12-31T23:59:59.999999",
+    "label": null,
+    "partition_key": null,
+    "reply_to": null,
+    "reply_to_session_id": null,
+    "scheduled_enqueue_time": null,
+    "session_id": null,
+    "time_to_live": null,
+    "to": null,
+    "user_properties": {
+        "Diagnostic-Id": "00-295e9802965529c27008ac4383e09dfb-0bd91098c50f67c9-00"
+    }
+}
